@@ -1,0 +1,29 @@
+{
+  "name": "sui-move-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "sui-move": "./bin/sui-move.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-all": "mocha --require ts-node/register test/*/*.test.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^22.14.0",
+    "mocha": "^11.1.0",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "commander": "^13.1.0"
+  }
+}
