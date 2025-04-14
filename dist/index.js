@@ -79,15 +79,16 @@ program
     .command("new-token")
     .description("new token")
     .option("-n, --name <name>", "token name")
-    .option("-s, --symbol <symbol>", "token symbol")
-    .option("-d, --decimals <decimals>", "token decimals")
-    .option("-i, --initialSupply <initialSupply>", "token initial supply")
+    .option("-d, --decimals <number>", "token decimals")
+    .option("-i, --initialSupply <number>", "token initial supply")
     .option("-p, --package <package>", "move package name")
-    .action((_a) => __awaiter(void 0, [_a], void 0, function* ({ name, symbol, decimals, initialSupply, package: packagePath }) {
-    console.log(`you will create new token: ${name}`);
+    .option("--token-symbol <tokenSymbol>", "token symbol")
+    .action((options) => __awaiter(void 0, void 0, void 0, function* () {
+    console.log(`you will create new token: ${options}`);
+    const { name, decimals, initialSupply, package: packageName, tokenSymbol, } = options;
     yield (0, utils_1.newToken)({
         name,
-        symbol,
+        symbol: tokenSymbol,
         decimals,
         initialSupply,
     }, startPath);

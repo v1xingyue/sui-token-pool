@@ -86,23 +86,30 @@ program
   .command("new-token")
   .description("new token")
   .option("-n, --name <name>", "token name")
-  .option("-s, --symbol <symbol>", "token symbol")
-  .option("-d, --decimals <decimals>", "token decimals")
-  .option("-i, --initialSupply <initialSupply>", "token initial supply")
+  .option("-d, --decimals <number>", "token decimals")
+  .option("-i, --initialSupply <number>", "token initial supply")
   .option("-p, --package <package>", "move package name")
-  .action(
-    async ({ name, symbol, decimals, initialSupply, package: packagePath }) => {
-      console.log(`you will create new token: ${name}`);
-      await newToken(
-        {
-          name,
-          symbol,
-          decimals,
-          initialSupply,
-        },
-        startPath
-      );
-    }
-  );
+  .option("--token-symbol <tokenSymbol>", "token symbol")
+  .action(async (options) => {
+    console.log(`you will create new token: ${options}`);
+
+    const {
+      name,
+      decimals,
+      initialSupply,
+      package: packageName,
+      tokenSymbol,
+    } = options;
+
+    await newToken(
+      {
+        name,
+        symbol: tokenSymbol,
+        decimals,
+        initialSupply,
+      },
+      startPath
+    );
+  });
 
 program.parse(process.argv);
