@@ -80,7 +80,7 @@ const getUpgradeInfo = (packagePath) => {
 };
 exports.getUpgradeInfo = getUpgradeInfo;
 const newToken = (options, startPath) => __awaiter(void 0, void 0, void 0, function* () {
-    console.log(`You will create new token: ${options.name}`);
+    console.log(`You will create new token: ${JSON.stringify(options)}`);
     (0, child_process_1.execSync)(`sui move new ${options.name.toLowerCase()}`, {
         cwd: startPath,
         stdio: "inherit",

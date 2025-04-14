@@ -134,7 +134,7 @@ export interface NewTokenOptions {
 }
 
 export const newToken = async (options: NewTokenOptions, startPath: string) => {
-  console.log(`You will create new token: ${options.name}`);
+  console.log(`You will create new token: ${JSON.stringify(options)}`);
 
   execSync(`sui move new ${options.name.toLowerCase()}`, {
     cwd: startPath,
