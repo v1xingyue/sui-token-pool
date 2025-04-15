@@ -65,5 +65,5 @@ export interface NewTokenOptions {
 }
 export declare const newToken: (options: NewTokenOptions, startPath: string) => Promise<void>;
 export declare const newPackage: (packageName: string, startPath: string) => Promise<void>;
-export declare const getSuiPath: () => string;
+export declare const getSuiPath: () => string | null;
 export {};

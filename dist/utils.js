@@ -34,12 +34,15 @@ const buildMoveAsJson = (buildPath) => __awaiter(void 0, void 0, void 0, functio
 });
 exports.buildMoveAsJson = buildMoveAsJson;
 const publishNew = (packagePath) => __awaiter(void 0, void 0, void 0, function* () {
-    console.log("publish new move package: ", packagePath);
     const output = (0, child_process_1.execSync)(`sui client publish --gas-budget 100000000 --skip-dependency-verification --json`, {
         cwd: packagePath,
-        stdio: "pipe",
+        stdio: "pipe", // capture all output
     });
-    fs_1.default.writeFileSync(path_1.default.join(packagePath, "deploy.json"), output);
+    if (output) {
+        const outputStr = output.toString();
+        console.log("Publishing output:", outputStr);
+        fs_1.default.writeFileSync(path_1.default.join(packagePath, "deploy.json"), outputStr);
+    }
 });
 exports.publishNew = publishNew;
 const getPublishedPackage = (deploy) => {
@@ -67,11 +70,43 @@ const upgradeCurrent = (packagePath) => __awaiter(void 0, void 0, void 0, functi
     const deploy = JSON.parse(fs_1.default.readFileSync(path_1.default.join(packagePath, "deploy.json"), "utf-8"));
     const info = (0, exports.getUpdateCap)(deploy);
     console.log(`update cap : ${JSON.stringify(info.updateCap)}`);
-    const output = (0, child_process_1.execSync)(`sui client upgrade --gas-budget 100000000 --upgrade-capability ${info.updateCap.objectId} --skip-dependency-verification --json`, {
-        cwd: packagePath,
-        stdio: ["pipe", "inherit"],
-    });
-    fs_1.default.writeFileSync(path_1.default.join(packagePath, "upgrade.json"), output);
+    try {
+        const output = (0, child_process_1.execSync)(`sui client upgrade --gas-budget 100000000 --upgrade-capability ${info.updateCap.objectId} --skip-dependency-verification --json 2>&1`, // Redirect stderr to stdout
+        {
+            cwd: packagePath,
+            encoding: "utf-8",
+        });
+        if (output && output.trim()) {
+            // Try to parse the output to get the JSON part
+            const jsonMatch = output.match(/\{[\s\S]*\}/);
+            if (jsonMatch) {
+                const jsonStr = jsonMatch[0];
+                console.log("Found JSON output");
+                fs_1.default.writeFileSync(path_1.default.join(packagePath, "upgrade.json"), jsonStr);
+            }
+            else {
+                console.log("No JSON found in output");
+                fs_1.default.writeFileSync(path_1.default.join(packagePath, "upgrade.json"), output);
+            }
+        }
+        else {
+            console.log("No output received from upgrade command");
+        }
+    }
+    catch (error) {
+        if (error instanceof Error) {
+            console.error("Error during upgrade:", error.message);
+            // Try to extract JSON from error output if available
+            const errorOutput = error.message || "";
+            const jsonMatch = errorOutput.match(/\{[\s\S]*\}/);
+            if (jsonMatch) {
+                const jsonStr = jsonMatch[0];
+                console.log("Found JSON in error output");
+                fs_1.default.writeFileSync(path_1.default.join(packagePath, "upgrade.json"), jsonStr);
+            }
+        }
+        throw error;
+    }
 });
 exports.upgradeCurrent = upgradeCurrent;
 const getUpgradeInfo = (packagePath) => {
@@ -145,7 +180,12 @@ const newPackage = (packageName, startPath) => __awaiter(void 0, void 0, void 0,
 });
 exports.newPackage = newPackage;
 const getSuiPath = () => {
-    const suiPath = (0, child_process_1.execSync)(`which sui`).toString().trim();
-    return suiPath;
+    try {
+        const output = (0, child_process_1.execSync)("which sui", { stdio: "pipe" });
+        return output.toString().trim();
+    }
+    catch (error) {
+        return null;
+    }
 };
 exports.getSuiPath = getSuiPath;

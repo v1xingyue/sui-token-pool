@@ -9,71 +9,73 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
 const commander_1 = require("commander");
 const utils_1 = require("./utils");
-const fs_1 = __importDefault(require("fs"));
-const path_1 = __importDefault(require("path"));
-const startPath = "./move";
-const suiPath = (0, utils_1.getSuiPath)();
-if (!suiPath) {
-    console.error("sui not found, please install sui first, https://docs.sui.io/guides/developer/getting-started/sui-install");
-    process.exit(1);
+const config_1 = require("./config");
+const package_1 = require("./commands/package");
+const token_1 = require("./commands/token");
+// Check for sui installation
+if (!config_1.isDevelopment) {
+    const suiPath = (0, utils_1.getSuiPath)();
+    if (!suiPath) {
+        config_1.logger.error("sui not found, please install sui first, https://docs.sui.io/guides/developer/getting-started/sui-install");
+        process.exit(1);
+    }
 }
-if (!fs_1.default.existsSync(startPath)) {
-    fs_1.default.mkdirSync(startPath);
-}
+// Ensure required directories exist
+(0, config_1.ensureDirectories)();
 const program = new commander_1.Command();
 program.version("1.0.0").option("-s, --start-path <path>", "move start path");
 program
     .command("new-package")
     .option("-n, --name <name>", "move package name")
     .description("new move package")
-    .action((_a) => __awaiter(void 0, [_a], void 0, function* ({ name }) {
-    yield (0, utils_1.newPackage)(name, "./move");
+    .action((options) => __awaiter(void 0, void 0, void 0, function* () {
+    try {
+        yield (0, package_1.handleNewPackage)(options, config_1.paths.start);
+    }
+    catch (error) {
+        process.exit(1);
+    }
 }));
 program
     .command("build")
     .description("build move project")
     .option("-p, --package <package>", "move package name")
-    .action((_a) => __awaiter(void 0, [_a], void 0, function* ({ package: packageName }) {
-    console.log(`you will build move package: ${packageName}`);
-    const packagePath = path_1.default.join(startPath, packageName);
-    yield (0, utils_1.buildMove)(packagePath);
+    .action((options) => __awaiter(void 0, void 0, void 0, function* () {
+    try {
+        yield (0, package_1.handleBuildPackage)(options, config_1.paths.start);
+    }
+    catch (error) {
+        process.exit(1);
+    }
 }));
 program
     .command("publish")
     .option("-p, --package <package>", "move package name")
     .option("-b, --build", "build move project before publish")
     .description("publish move project")
-    .action((_a) => __awaiter(void 0, [_a], void 0, function* ({ package: packageName, build }) {
-    console.log(`you will publish move package: ${packageName}`);
-    const packagePath = path_1.default.join(startPath, packageName);
-    if (build) {
-        console.log("you will build project before publish");
-        yield (0, utils_1.buildMove)(packagePath);
+    .action((options) => __awaiter(void 0, void 0, void 0, function* () {
+    try {
+        yield (0, package_1.handlePublishPackage)(options, config_1.paths.start);
     }
-    yield (0, utils_1.publishNew)(packagePath);
+    catch (error) {
+        process.exit(1);
+    }
 }));
 program
     .command("upgrade")
     .option("-p, --package <package>", "move package name")
     .option("-b, --build", "build move project before upgrade")
     .description("upgrade move project")
-    .action((_a) => __awaiter(void 0, [_a], void 0, function* ({ package: packageName, build }) {
-    console.log(`you will upgrade move package: ${packageName}`);
-    const packagePath = path_1.default.join(startPath, packageName);
-    if (build) {
-        console.log("you will build project before upgrade");
-        yield (0, utils_1.buildMove)(packagePath);
+    .action((options) => __awaiter(void 0, void 0, void 0, function* () {
+    try {
+        yield (0, package_1.handleUpgradePackage)(options, config_1.paths.start);
     }
-    yield (0, utils_1.upgradeCurrent)(packagePath);
-    console.log("upgrade move project done");
-    const upgradeInfo = (0, utils_1.getUpgradeInfo)(packagePath);
-    console.log(upgradeInfo);
+    catch (error) {
+        process.exit(1);
+    }
 }));
 program
     .command("new-token")
@@ -84,13 +86,16 @@ program
     .option("-p, --package <package>", "move package name")
     .option("--token-symbol <tokenSymbol>", "token symbol")
     .action((options) => __awaiter(void 0, void 0, void 0, function* () {
-    console.log(`you will create new token: ${options}`);
-    const { name, decimals, initialSupply, package: packageName, tokenSymbol, } = options;
-    yield (0, utils_1.newToken)({
-        name,
-        symbol: tokenSymbol,
-        decimals,
-        initialSupply,
-    }, startPath);
+    try {
+        yield (0, token_1.handleNewToken)(options, config_1.paths.start);
+    }
+    catch (error) {
+        process.exit(1);
+    }
 }));
+// Handle unhandled promise rejections
+process.on("unhandledRejection", (error) => {
+    config_1.logger.error("Unhandled promise rejection:", error);
+    process.exit(1);
+});
 program.parse(process.argv);

@@ -64,15 +64,18 @@ export const buildMoveAsJson = async (buildPath: string) => {
 };
 
 export const publishNew = async (packagePath: string) => {
-  console.log("publish new move package: ", packagePath);
   const output = execSync(
     `sui client publish --gas-budget 100000000 --skip-dependency-verification --json`,
     {
       cwd: packagePath,
-      stdio: "pipe",
+      stdio: "pipe", // capture all output
     }
   );
-  fs.writeFileSync(path.join(packagePath, "deploy.json"), output);
+  if (output) {
+    const outputStr = output.toString();
+    console.log("Publishing output:", outputStr);
+    fs.writeFileSync(path.join(packagePath, "deploy.json"), outputStr);
+  }
 };
 
 export const getPublishedPackage = (deploy: DeployInfo) => {
@@ -109,14 +112,43 @@ export const upgradeCurrent = async (packagePath: string) => {
 
   console.log(`update cap : ${JSON.stringify(info.updateCap)}`);
 
-  const output = execSync(
-    `sui client upgrade --gas-budget 100000000 --upgrade-capability ${info.updateCap.objectId} --skip-dependency-verification --json`,
-    {
-      cwd: packagePath,
-      stdio: ["pipe", "inherit"],
+  try {
+    const output = execSync(
+      `sui client upgrade --gas-budget 100000000 --upgrade-capability ${info.updateCap.objectId} --skip-dependency-verification --json 2>&1`, // Redirect stderr to stdout
+      {
+        cwd: packagePath,
+        encoding: "utf-8",
+      }
+    );
+
+    if (output && output.trim()) {
+      // Try to parse the output to get the JSON part
+      const jsonMatch = output.match(/\{[\s\S]*\}/);
+      if (jsonMatch) {
+        const jsonStr = jsonMatch[0];
+        console.log("Found JSON output");
+        fs.writeFileSync(path.join(packagePath, "upgrade.json"), jsonStr);
+      } else {
+        console.log("No JSON found in output");
+        fs.writeFileSync(path.join(packagePath, "upgrade.json"), output);
+      }
+    } else {
+      console.log("No output received from upgrade command");
     }
-  );
-  fs.writeFileSync(path.join(packagePath, "upgrade.json"), output);
+  } catch (error) {
+    if (error instanceof Error) {
+      console.error("Error during upgrade:", error.message);
+      // Try to extract JSON from error output if available
+      const errorOutput = error.message || "";
+      const jsonMatch = errorOutput.match(/\{[\s\S]*\}/);
+      if (jsonMatch) {
+        const jsonStr = jsonMatch[0];
+        console.log("Found JSON in error output");
+        fs.writeFileSync(path.join(packagePath, "upgrade.json"), jsonStr);
+      }
+    }
+    throw error;
+  }
 };
 
 export const getUpgradeInfo = (packagePath: string) => {
@@ -208,6 +240,10 @@ export const newPackage = async (packageName: string, startPath: string) => {
 };
 
 export const getSuiPath = () => {
-  const suiPath = execSync(`which sui`).toString().trim();
-  return suiPath;
+  try {
+    const output = execSync("which sui", { stdio: "pipe" });
+    return output.toString().trim();
+  } catch (error) {
+    return null;
+  }
 };
