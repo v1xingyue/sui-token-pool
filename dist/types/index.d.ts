@@ -1,2 +1,4 @@
-#!/usr/bin/env node
-export {};
+declare const _default: {
+    hello: string;
+};
+export default _default;

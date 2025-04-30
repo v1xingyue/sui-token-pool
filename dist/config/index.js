@@ -3,7 +3,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.paths = exports.logger = exports.isDevelopment = void 0;
+exports.network = exports.paths = exports.logger = exports.isDevelopment = void 0;
 exports.ensureDirectories = ensureDirectories;
 exports.mockAsyncOperation = mockAsyncOperation;
 exports.validateRequiredParams = validateRequiredParams;
@@ -12,10 +12,13 @@ const winston_1 = __importDefault(require("winston"));
 const path_1 = __importDefault(require("path"));
 // Environment configuration
 exports.isDevelopment = process.env.NODE_ENV === "development";
+const customFormat = winston_1.default.format.printf(({ level, message, timestamp }) => {
+    return `[${timestamp}] ${level}: ${message} `;
+});
 // Logger configuration
 exports.logger = winston_1.default.createLogger({
     level: "info",
-    format: winston_1.default.format.combine(winston_1.default.format.timestamp(), winston_1.default.format.colorize(), winston_1.default.format.simple()),
+    format: winston_1.default.format.combine(winston_1.default.format.timestamp(), winston_1.default.format.colorize(), customFormat),
     transports: [
         new winston_1.default.transports.Console(),
         new winston_1.default.transports.File({ filename: "error.log", level: "error" }),
@@ -68,3 +71,4 @@ function validateNumber(value, fieldName, options = {}) {
         throw new Error(`${fieldName} must be less than or equal to ${options.max}`);
     }
 }
+exports.network = "testnet";

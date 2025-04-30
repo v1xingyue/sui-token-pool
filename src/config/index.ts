@@ -4,13 +4,17 @@ import path from "path";
 // Environment configuration
 export const isDevelopment = process.env.NODE_ENV === "development";
 
+const customFormat = winston.format.printf(({ level, message, timestamp }) => {
+  return `[${timestamp as string}] ${level}: ${message} `;
+});
+
 // Logger configuration
 export const logger = winston.createLogger({
   level: "info",
   format: winston.format.combine(
     winston.format.timestamp(),
     winston.format.colorize(),
-    winston.format.simple()
+    customFormat
   ),
   transports: [
     new winston.transports.Console(),
@@ -79,3 +83,5 @@ export function validateNumber(
     );
   }
 }
+
+export const network = "testnet";

@@ -91,7 +91,6 @@ public fun exchange(
     } 
 }
 
-
 public entry fun deposit(
     coin: &mut coin::Coin<USDC>,
     amount: u64,
@@ -101,3 +100,10 @@ public entry fun deposit(
     let usdc = coin::split(coin, amount, ctx);
     info.usdc_wallet.join(coin::into_balance(usdc));
 }
+
+public entry my_deposit(
+    meta: &mut Metadata,
+) {
+    
+}
+    

@@ -122,6 +122,9 @@ const newToken = (options, startPath) => __awaiter(void 0, void 0, void 0, funct
     });
     const tokenPath = path_1.default.join(startPath, options.name.toLowerCase());
     const newTokenMoveCode = `
+
+// this is auto generated code to create a new token
+
 module ${options.name.toLowerCase()}::token;
 use sui::coin::{Self, TreasuryCap};
 
@@ -143,15 +146,14 @@ fun init(witness: TOKEN, ctx: &mut TxContext) {
         ctx,
 	);
 	
+  let admin_cap = AdminCap {
+      id: object::new(ctx),
+  };
 
-    let admin_cap = AdminCap {
-        id: object::new(ctx),
-    };
+  transfer::transfer(admin_cap, sender);
 
-    transfer::transfer(admin_cap, sender);
-
-    mint_once(&mut treasury, ${options.initialSupply}, sender, ctx);
-    transfer::public_freeze_object(metadata);
+  mint_once(&mut treasury, ${options.initialSupply}, sender, ctx);
+  transfer::public_freeze_object(metadata);
 	transfer::public_transfer(treasury, sender);
 }
 

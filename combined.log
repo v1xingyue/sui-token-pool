@@ -1,0 +1,327 @@
+[32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move {"timestamp":"2025-04-15T01:42:35.319Z"}
+[32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs {"timestamp":"2025-04-15T01:42:35.321Z"}
+[32minfo[39m: Token parameters: {"decimals":"6","initialSupply":"5000000000","name":"xing","timestamp":"2025-04-15T01:42:35.326Z","tokenSymbol":"XINGSIR"}
+[32minfo[39m: Successfully created new token {"timestamp":"2025-04-15T01:46:29.362Z"}
+[32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move {"timestamp":"2025-04-15T01:52:44.240Z"}
+[32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs {"timestamp":"2025-04-15T01:52:44.241Z"}
+[32minfo[39m: Successfully created package: buzzing {"timestamp":"2025-04-15T01:52:44.405Z"}
+[32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move {"timestamp":"2025-04-30T00:58:30.648Z"}
+[32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs {"timestamp":"2025-04-30T00:58:30.650Z"}
+[32minfo[39m: cetus command called ... {"timestamp":"2025-04-30T00:58:30.652Z"}
+[32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move {"timestamp":"2025-04-30T00:58:43.606Z"}
+[32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs {"timestamp":"2025-04-30T00:58:43.608Z"}
+[32minfo[39m: cetus command called ... {"timestamp":"2025-04-30T00:58:43.609Z"}
+[32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move {"timestamp":"2025-04-30T00:58:48.623Z"}
+[32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs {"timestamp":"2025-04-30T00:58:48.625Z"}
+[32minfo[39m: cetus command called ... {"timestamp":"2025-04-30T00:58:48.626Z"}
+[32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move {"timestamp":"2025-04-30T00:59:43.975Z"}
+[32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs {"timestamp":"2025-04-30T00:59:43.976Z"}
+[32minfo[39m: cetus command called ... {"timestamp":"2025-04-30T00:59:43.978Z"}
+[32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move {"timestamp":"2025-04-30T01:02:19.650Z"}
+[32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs {"timestamp":"2025-04-30T01:02:19.651Z"}
+[32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move {"timestamp":"2025-04-30T01:02:20.768Z"}
+[32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs {"timestamp":"2025-04-30T01:02:20.770Z"}
+[32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move {"timestamp":"2025-04-30T01:03:44.272Z"}
+[32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs {"timestamp":"2025-04-30T01:03:44.274Z"}
+[32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move {"timestamp":"2025-04-30T01:03:45.867Z"}
+[32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs {"timestamp":"2025-04-30T01:03:45.868Z"}
+[32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move {"timestamp":"2025-04-30T01:03:49.829Z"}
+[32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs {"timestamp":"2025-04-30T01:03:49.831Z"}
+[32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move {"timestamp":"2025-04-30T01:03:56.013Z"}
+[32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs {"timestamp":"2025-04-30T01:03:56.015Z"}
+[32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move {"timestamp":"2025-04-30T01:04:05.241Z"}
+[32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs {"timestamp":"2025-04-30T01:04:05.243Z"}
+[32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move {"timestamp":"2025-04-30T01:04:40.628Z"}
+[32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs {"timestamp":"2025-04-30T01:04:40.630Z"}
+[32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move {"timestamp":"2025-04-30T01:04:44.587Z"}
+[32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs {"timestamp":"2025-04-30T01:04:44.589Z"}
+[32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move {"timestamp":"2025-04-30T01:04:48.705Z"}
+[32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs {"timestamp":"2025-04-30T01:04:48.706Z"}
+[32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move {"timestamp":"2025-04-30T01:05:41.787Z"}
+[32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs {"timestamp":"2025-04-30T01:05:41.789Z"}
+[32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move {"timestamp":"2025-04-30T01:13:50.503Z"}
+[32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs {"timestamp":"2025-04-30T01:13:50.505Z"}
+[32minfo[39m: lowerTick: -16096 {"timestamp":"2025-04-30T01:13:50.510Z"}
+[32minfo[39m: upperTick: -2232 {"timestamp":"2025-04-30T01:13:50.510Z"}
+[32minfo[39m: currentTick: -6932 {"timestamp":"2025-04-30T01:13:50.510Z"}
+[32minfo[39m: tickLowerIdx: -16100 {"timestamp":"2025-04-30T01:13:50.510Z"}
+[32minfo[39m: tickUpperIdx: -2200 {"timestamp":"2025-04-30T01:13:50.510Z"}
+[32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move {"timestamp":"2025-04-30T01:17:42.485Z"}
+[32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs {"timestamp":"2025-04-30T01:17:42.487Z"}
+[32minfo[39m: lowerTick: 8249634742471189717 {"timestamp":"2025-04-30T01:17:42.491Z"}
+[32minfo[39m: upperTick: 16499269484942379435 {"timestamp":"2025-04-30T01:17:42.491Z"}
+[32minfo[39m: currentTick: 13043817825332782212 {"timestamp":"2025-04-30T01:17:42.491Z"}
+[32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move {"timestamp":"2025-04-30T01:19:00.720Z"}
+[32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs {"timestamp":"2025-04-30T01:19:00.722Z"}
+[32minfo[39m: lowerTick: 8249634742471189717 {"timestamp":"2025-04-30T01:19:00.725Z"}
+[32minfo[39m: upperTick: 16499269484942379435 {"timestamp":"2025-04-30T01:19:00.726Z"}
+[32minfo[39m: currentTick: 13043817825332782212 {"timestamp":"2025-04-30T01:19:00.726Z"}
+[32minfo[39m: lowerTick: 8249634742471189717 {"timestamp":"2025-04-30T01:19:00.727Z"}
+[32minfo[39m: upperTick: 16499269484942379435 {"timestamp":"2025-04-30T01:19:00.727Z"}
+[32minfo[39m: currentTick: 13043817825332782212 {"timestamp":"2025-04-30T01:19:00.727Z"}
+[32minfo[39m: tickLowerIdx: -16000 {"timestamp":"2025-04-30T01:19:00.727Z"}
+[32minfo[39m: tickUpperIdx: -2200 {"timestamp":"2025-04-30T01:19:00.728Z"}
+[32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move {"timestamp":"2025-04-30T01:24:47.720Z"}
+[32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs {"timestamp":"2025-04-30T01:24:47.721Z"}
+[32minfo[39m: lowerTick: 8249634742471189717 {"timestamp":"2025-04-30T01:24:47.725Z"}
+[32minfo[39m: upperTick: 16499269484942379435 {"timestamp":"2025-04-30T01:24:47.725Z"}
+[32minfo[39m: currentTick: 13043817825332782212 {"timestamp":"2025-04-30T01:24:47.725Z"}
+[32minfo[39m: lowerTick: 8249634742471189717 {"timestamp":"2025-04-30T01:24:47.725Z"}
+[32minfo[39m: upperTick: 16499269484942379435 {"timestamp":"2025-04-30T01:24:47.725Z"}
+[32minfo[39m: currentTick: 13043817825332782212 {"timestamp":"2025-04-30T01:24:47.725Z"}
+[32minfo[39m: tickLowerIdx: 8249634742471189700 {"timestamp":"2025-04-30T01:24:47.725Z"}
+[32minfo[39m: tickUpperIdx: 16499269484942379400 {"timestamp":"2025-04-30T01:24:47.726Z"}
+[32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move {"timestamp":"2025-04-30T01:46:59.809Z"}
+[32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs {"timestamp":"2025-04-30T01:46:59.811Z"}
+[32minfo[39m: initialize_sqrt_price: 13043817825332782212 {"timestamp":"2025-04-30T01:46:59.815Z"}
+[32minfo[39m: tick_lower: -6934 {"timestamp":"2025-04-30T01:46:59.815Z"}
+[32minfo[39m: tick_upper: -6930 {"timestamp":"2025-04-30T01:46:59.815Z"}
+[32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move {"timestamp":"2025-04-30T01:59:33.299Z"}
+[32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs {"timestamp":"2025-04-30T01:59:33.301Z"}
+[32minfo[39m: 0x04cd059fdd2fe4d53f6189445ff2fe5a364a2042bc9ab7045d242f6232bc3c11 {"timestamp":"2025-04-30T01:59:33.339Z"}
+[32minfo[39m: initialize_sqrt_price: 13043817825332782212 {"timestamp":"2025-04-30T01:59:33.342Z"}
+[32minfo[39m: tick_lower: -6934 {"timestamp":"2025-04-30T01:59:33.342Z"}
+[32minfo[39m: tick_upper: -6930 {"timestamp":"2025-04-30T01:59:33.342Z"}
+[] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move
+[] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs
+[] [32minfo[39m: 0x04cd059fdd2fe4d53f6189445ff2fe5a364a2042bc9ab7045d242f6232bc3c11
+[] [32minfo[39m: initialize_sqrt_price: 13043817825332782212
+[] [32minfo[39m: tick_lower: -6934
+[] [32minfo[39m: tick_upper: -6930
+[] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move
+[] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs
+[] [32minfo[39m: 0x04cd059fdd2fe4d53f6189445ff2fe5a364a2042bc9ab7045d242f6232bc3c11
+[] [32minfo[39m: initialize_sqrt_price: 13043817825332782212
+[] [32minfo[39m: tick_lower: -6934
+[] [32minfo[39m: tick_upper: -6930
+[2025-04-30T02:06:46.347Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move
+[2025-04-30T02:06:46.348Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs
+[2025-04-30T02:06:46.386Z] [32minfo[39m: 0x04cd059fdd2fe4d53f6189445ff2fe5a364a2042bc9ab7045d242f6232bc3c11
+[2025-04-30T02:06:46.388Z] [32minfo[39m: initialize_sqrt_price: 13043817825332782212
+[2025-04-30T02:06:46.388Z] [32minfo[39m: tick_lower: -6934
+[2025-04-30T02:06:46.388Z] [32minfo[39m: tick_upper: -6930
+ [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move [2025-04-30T02:06:59.848Z]
+ [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs [2025-04-30T02:06:59.850Z]
+ [32minfo[39m: 0x04cd059fdd2fe4d53f6189445ff2fe5a364a2042bc9ab7045d242f6232bc3c11 [2025-04-30T02:06:59.889Z]
+ [32minfo[39m: initialize_sqrt_price: 13043817825332782212 [2025-04-30T02:06:59.891Z]
+ [32minfo[39m: tick_lower: -6934 [2025-04-30T02:06:59.891Z]
+ [32minfo[39m: tick_upper: -6930 [2025-04-30T02:06:59.891Z]
+[2025-04-30T02:07:13.590Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T02:07:13.592Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T02:07:13.632Z] [32minfo[39m: 0x04cd059fdd2fe4d53f6189445ff2fe5a364a2042bc9ab7045d242f6232bc3c11 
+[2025-04-30T02:07:13.634Z] [32minfo[39m: initialize_sqrt_price: 13043817825332782212 
+[2025-04-30T02:07:13.635Z] [32minfo[39m: tick_lower: -6934 
+[2025-04-30T02:07:13.635Z] [32minfo[39m: tick_upper: -6930 
+[2025-04-30T02:07:58.531Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T02:07:58.532Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T02:07:58.569Z] [32minfo[39m: 0x04cd059fdd2fe4d53f6189445ff2fe5a364a2042bc9ab7045d242f6232bc3c11 
+[2025-04-30T02:07:58.572Z] [32minfo[39m: initialize_sqrt_price: 13043817825332782212 
+[2025-04-30T02:07:58.572Z] [32minfo[39m: tick_lower: -6934 
+[2025-04-30T02:07:58.572Z] [32minfo[39m: tick_upper: -6930 
+[2025-04-30T02:12:28.099Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T02:12:28.101Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T02:12:28.142Z] [32minfo[39m: 0x04cd059fdd2fe4d53f6189445ff2fe5a364a2042bc9ab7045d242f6232bc3c11 
+[2025-04-30T02:12:28.145Z] [32minfo[39m: initialize_sqrt_price: 13043817825332782212 
+[2025-04-30T02:12:28.145Z] [32minfo[39m: tick_lower: -6934 
+[2025-04-30T02:12:28.145Z] [32minfo[39m: tick_upper: -6930 
+[2025-04-30T02:17:07.986Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T02:17:07.988Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T02:17:08.026Z] [32minfo[39m: 0x04cd059fdd2fe4d53f6189445ff2fe5a364a2042bc9ab7045d242f6232bc3c11 
+[2025-04-30T02:17:08.029Z] [32minfo[39m: initialize_sqrt_price: 13043817825332782212 
+[2025-04-30T02:17:08.029Z] [32minfo[39m: tick_lower: -6934 
+[2025-04-30T02:17:08.029Z] [32minfo[39m: tick_upper: -6930 
+[2025-04-30T02:34:12.405Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T02:34:12.407Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T02:34:12.445Z] [32minfo[39m: 0x04cd059fdd2fe4d53f6189445ff2fe5a364a2042bc9ab7045d242f6232bc3c11 
+[2025-04-30T02:34:12.447Z] [32minfo[39m: initialize_sqrt_price: 13043817825332782212 
+[2025-04-30T02:34:12.447Z] [32minfo[39m: tick_lower: -6934 
+[2025-04-30T02:34:12.448Z] [32minfo[39m: tick_upper: -6930 
+[2025-04-30T04:25:53.785Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T04:25:53.787Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T04:25:53.788Z] [32minfo[39m: hello world 
+[2025-04-30T05:30:09.911Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T05:30:09.913Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T05:31:48.393Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T05:31:48.394Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T05:32:05.580Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T05:32:05.582Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T05:33:01.659Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T05:33:01.660Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T05:33:35.461Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T05:33:35.462Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T05:33:43.046Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T05:33:43.048Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T05:33:57.173Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T05:33:57.174Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T05:34:09.410Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T05:34:09.412Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T05:34:09.413Z] [32minfo[39m: dump pool by coin 0x2::sui::SUI 
+[2025-04-30T05:34:19.048Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T05:34:19.049Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T05:34:39.602Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T05:34:39.604Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T05:34:39.606Z] [32minfo[39m: dump pool by coin 0x6c7f290592db609009dee35ca5af9c9452bfc06d4880dd04fbb29864cdf49018::usdt::USDT 
+[2025-04-30T05:34:39.951Z] [31merror[39m: Unhandled promise rejection: Failed tp [arse response from https://api-sui.devcetus.com/v2/sui/stats_pools?order_by=-fees&limit=100&has_mining=true&has_farming=true&no_incentives=true&display_all_pools=true&coin_type=0x6c7f290592db609009dee35ca5af9c9452bfc06d4880dd04fbb29864cdf49018::usdt::USDT]. 
+[2025-04-30T05:35:17.196Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T05:35:17.197Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T05:53:48.039Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T05:53:48.040Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T05:57:19.121Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T05:57:19.123Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T05:57:43.452Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T05:57:43.453Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T05:58:10.531Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T05:58:10.532Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T06:01:28.078Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T06:01:28.079Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T06:01:57.263Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T06:01:57.264Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T06:01:57.266Z] [32minfo[39m: options: {"coin":["0xaa6e863341098fb0b0bf823c4eea7120d9072379c558d6be0bb09b330ddc8c9f::usdt::USDT","0xaa6e863341098fb0b0bf823c4eea7120d9072379c558d6be0bb09b330ddc8c9f::usdc::USDC"]} 
+[2025-04-30T06:02:10.342Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T06:02:10.343Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T06:02:10.345Z] [32minfo[39m: options: {"coins":["0xaa6e863341098fb0b0bf823c4eea7120d9072379c558d6be0bb09b330ddc8c9f::usdt::USDT","0xaa6e863341098fb0b0bf823c4eea7120d9072379c558d6be0bb09b330ddc8c9f::usdc::USDC"]} 
+[2025-04-30T06:02:10.345Z] [32minfo[39m: dump pool by coin 0xaa6e863341098fb0b0bf823c4eea7120d9072379c558d6be0bb09b330ddc8c9f::usdt::USDT,0xaa6e863341098fb0b0bf823c4eea7120d9072379c558d6be0bb09b330ddc8c9f::usdc::USDC 
+[2025-04-30T06:02:11.045Z] [31merror[39m: Unhandled promise rejection: Failed tp [arse response from https://api-sui.devcetus.com/v2/sui/stats_pools?order_by=-fees&limit=100&has_mining=true&has_farming=true&no_incentives=true&display_all_pools=true&coin_type=0xaa6e863341098fb0b0bf823c4eea7120d9072379c558d6be0bb09b330ddc8c9f::usdt::USDT,0xaa6e863341098fb0b0bf823c4eea7120d9072379c558d6be0bb09b330ddc8c9f::usdc::USDC]. 
+[2025-04-30T06:02:15.293Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T06:02:15.294Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T06:02:15.296Z] [32minfo[39m: options: {"coins":["0xaa6e863341098fb0b0bf823c4eea7120d9072379c558d6be0bb09b330ddc8c9f::usdt::USDT","0xaa6e863341098fb0b0bf823c4eea7120d9072379c558d6be0bb09b330ddc8c9f::usdc::USDC"]} 
+[2025-04-30T06:02:15.296Z] [32minfo[39m: dump pool by coin 0xaa6e863341098fb0b0bf823c4eea7120d9072379c558d6be0bb09b330ddc8c9f::usdt::USDT,0xaa6e863341098fb0b0bf823c4eea7120d9072379c558d6be0bb09b330ddc8c9f::usdc::USDC 
+[2025-04-30T06:02:15.642Z] [31merror[39m: Unhandled promise rejection: Failed tp [arse response from https://api-sui.devcetus.com/v2/sui/stats_pools?order_by=-fees&limit=100&has_mining=true&has_farming=true&no_incentives=true&display_all_pools=true&coin_type=0xaa6e863341098fb0b0bf823c4eea7120d9072379c558d6be0bb09b330ddc8c9f::usdt::USDT,0xaa6e863341098fb0b0bf823c4eea7120d9072379c558d6be0bb09b330ddc8c9f::usdc::USDC]. 
+[2025-04-30T06:02:29.333Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T06:02:29.334Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T06:02:29.336Z] [32minfo[39m: options: {"coins":["0xaa6e863341098fb0b0bf823c4eea7120d9072379c558d6be0bb09b330ddc8c9f::usdt::USDT","0xaa6e863341098fb0b0bf823c4eea7120d9072379c558d6be0bb09b330ddc8c9f::usdc::USDC"]} 
+[2025-04-30T06:02:29.336Z] [32minfo[39m: dump pool by coin 0xaa6e863341098fb0b0bf823c4eea7120d9072379c558d6be0bb09b330ddc8c9f::usdt::USDT,0xaa6e863341098fb0b0bf823c4eea7120d9072379c558d6be0bb09b330ddc8c9f::usdc::USDC 
+[2025-04-30T06:02:29.594Z] [31merror[39m: Unhandled promise rejection: Failed tp [arse response from https://api-sui.devcetus.com/v2/sui/stats_pools?order_by=-fees&limit=100&has_mining=true&has_farming=true&no_incentives=true&display_all_pools=true&coin_type=0xaa6e863341098fb0b0bf823c4eea7120d9072379c558d6be0bb09b330ddc8c9f::usdt::USDT,0xaa6e863341098fb0b0bf823c4eea7120d9072379c558d6be0bb09b330ddc8c9f::usdc::USDC]. 
+[2025-04-30T06:02:39.203Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T06:02:39.204Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T06:02:39.206Z] [32minfo[39m: options: {"coins":["0xaa6e863341098fb0b0bf823c4eea7120d9072379c558d6be0bb09b330ddc8c9f::usdt::USDT","0xaa6e863341098fb0b0bf823c4eea7120d9072379c558d6be0bb09b330ddc8c9f::usdc::USDC"]} 
+[2025-04-30T06:02:39.206Z] [32minfo[39m: dump pool by coin 0xaa6e863341098fb0b0bf823c4eea7120d9072379c558d6be0bb09b330ddc8c9f::usdt::USDT,0xaa6e863341098fb0b0bf823c4eea7120d9072379c558d6be0bb09b330ddc8c9f::usdc::USDC 
+[2025-04-30T06:02:40.081Z] [31merror[39m: Unhandled promise rejection: Failed tp [arse response from https://api-sui.cetus.zone/v2/sui/stats_pools?order_by=-fees&limit=100&has_mining=true&has_farming=true&no_incentives=true&display_all_pools=true&coin_type=0xaa6e863341098fb0b0bf823c4eea7120d9072379c558d6be0bb09b330ddc8c9f::usdt::USDT,0xaa6e863341098fb0b0bf823c4eea7120d9072379c558d6be0bb09b330ddc8c9f::usdc::USDC]. 
+[2025-04-30T06:02:42.842Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T06:02:42.844Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T06:02:42.846Z] [32minfo[39m: options: {"coins":[]} 
+[2025-04-30T06:05:35.259Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T06:05:35.260Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T06:05:35.262Z] [32minfo[39m: options: {"coins":[]} 
+[2025-04-30T06:05:55.630Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T06:05:55.631Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T06:05:55.633Z] [32minfo[39m: options: {"coins":[]} 
+[2025-04-30T06:06:45.380Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T06:06:45.381Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T06:06:45.383Z] [32minfo[39m: options: {"coins":[]} 
+[2025-04-30T06:23:07.973Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T06:23:07.974Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T06:23:07.976Z] [32minfo[39m: options: {"coins":["0xfd11f814090fb5b91b601be0af42f4eea735da6140277139b3a63f6f0ef2d9db::zussy::ZUSSY","0x2::sui::SUI"]} 
+[2025-04-30T06:23:07.976Z] [32minfo[39m: dump pool by coin 0xfd11f814090fb5b91b601be0af42f4eea735da6140277139b3a63f6f0ef2d9db::zussy::ZUSSY,0x2::sui::SUI 
+[2025-04-30T06:23:15.462Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T06:23:15.464Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T06:23:15.466Z] [32minfo[39m: options: {"coins":["0xfd11f814090fb5b91b601be0af42f4eea735da6140277139b3a63f6f0ef2d9db::zussy::ZUSSY","0x2::sui::SUI"]} 
+[2025-04-30T06:23:15.466Z] [32minfo[39m: dump pool by coin 0xfd11f814090fb5b91b601be0af42f4eea735da6140277139b3a63f6f0ef2d9db::zussy::ZUSSY,0x2::sui::SUI 
+[2025-04-30T06:23:34.484Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T06:23:34.485Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T06:23:34.487Z] [32minfo[39m: options: {"coins":["0xfd11f814090fb5b91b601be0af42f4eea735da6140277139b3a63f6f0ef2d9db::zussy::ZUSSY","0x2::sui::SUI"]} 
+[2025-04-30T06:23:34.487Z] [32minfo[39m: dump pool by coin 0xfd11f814090fb5b91b601be0af42f4eea735da6140277139b3a63f6f0ef2d9db::zussy::ZUSSY,0x2::sui::SUI 
+[2025-04-30T06:24:46.629Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T06:24:46.630Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T06:24:46.632Z] [32minfo[39m: options: {"coins":["0xfd11f814090fb5b91b601be0af42f4eea735da6140277139b3a63f6f0ef2d9db::zussy::ZUSSY","0x2::sui::SUI"]} 
+[2025-04-30T06:24:46.632Z] [32minfo[39m: dump pool by coin 0xfd11f814090fb5b91b601be0af42f4eea735da6140277139b3a63f6f0ef2d9db::zussy::ZUSSY,0x2::sui::SUI 
+[2025-04-30T06:25:05.948Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T06:25:05.949Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T06:25:05.951Z] [32minfo[39m: options: {"coins":["0xfd11f814090fb5b91b601be0af42f4eea735da6140277139b3a63f6f0ef2d9db::zussy::ZUSSY","0x2::sui::SUI"]} 
+[2025-04-30T06:25:05.951Z] [32minfo[39m: dump pool by coin 0xfd11f814090fb5b91b601be0af42f4eea735da6140277139b3a63f6f0ef2d9db::zussy::ZUSSY,0x2::sui::SUI 
+[2025-04-30T06:25:24.175Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T06:25:24.177Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T06:25:24.179Z] [32minfo[39m: options: {"coins":["0xfd11f814090fb5b91b601be0af42f4eea735da6140277139b3a63f6f0ef2d9db::zussy::ZUSSY","0x2::sui::SUI"]} 
+[2025-04-30T06:25:24.179Z] [32minfo[39m: dump pool by coin 0xfd11f814090fb5b91b601be0af42f4eea735da6140277139b3a63f6f0ef2d9db::zussy::ZUSSY,0x2::sui::SUI 
+[2025-04-30T06:25:25.700Z] [31merror[39m: Unhandled promise rejection: Failed tp [arse response from https://api-sui.devcetus.com/v2/sui/stats_pools?order_by=-fees&limit=100&has_mining=true&has_farming=true&no_incentives=true&display_all_pools=true&coin_type=0xfd11f814090fb5b91b601be0af42f4eea735da6140277139b3a63f6f0ef2d9db::zussy::ZUSSY,0x0000000000000000000000000000000000000000000000000000000000000002::sui::SUI]. 
+[2025-04-30T06:25:38.769Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T06:25:38.770Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T06:25:38.772Z] [32minfo[39m: options: {"coins":[]} 
+[2025-04-30T06:30:27.280Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T06:30:27.282Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T06:30:36.123Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T06:30:36.124Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T06:31:06.454Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T06:31:06.456Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T06:34:19.521Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T06:34:19.522Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T06:34:35.424Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T06:34:35.425Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T06:34:46.472Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T06:34:46.474Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T06:35:13.738Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T06:35:13.740Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T06:35:54.402Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T06:35:54.404Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T06:36:07.560Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T06:36:07.561Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T06:36:20.520Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T06:36:20.521Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T06:36:51.120Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T06:36:51.121Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T06:38:32.766Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T06:38:32.768Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T06:39:09.979Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T06:39:09.981Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T06:40:15.755Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T06:40:15.757Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T06:41:15.250Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T06:41:15.251Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T06:45:25.309Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T06:45:25.311Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T06:46:00.834Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T06:46:00.836Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T06:46:00.837Z] [32minfo[39m: options: {"coins":[]} 
+[2025-04-30T06:47:04.203Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T06:47:04.205Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T06:47:04.206Z] [32minfo[39m: options: {"coins":[]} 
+[2025-04-30T06:47:46.354Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T06:47:46.356Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T06:47:46.357Z] [32minfo[39m: options: {"coins":["0x872e504b1ca284a2eb9df71bd796a4d366fca83015c96f8e283ba48140d732bc::zal00::ZAL00","0x2::sui::SUI"]} 
+[2025-04-30T06:47:46.357Z] [32minfo[39m: dump pool by coin 0x872e504b1ca284a2eb9df71bd796a4d366fca83015c96f8e283ba48140d732bc::zal00::ZAL00,0x2::sui::SUI 
+[2025-04-30T06:47:47.040Z] [31merror[39m: Unhandled promise rejection: Failed tp [arse response from https://api-sui.devcetus.com/v2/sui/stats_pools?order_by=-fees&limit=100&has_mining=true&has_farming=true&no_incentives=true&display_all_pools=true&coin_type=0x872e504b1ca284a2eb9df71bd796a4d366fca83015c96f8e283ba48140d732bc::zal00::ZAL00,0x0000000000000000000000000000000000000000000000000000000000000002::sui::SUI]. 
+[2025-04-30T06:47:50.240Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T06:47:50.241Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T06:47:50.243Z] [32minfo[39m: options: {"coins":["0x872e504b1ca284a2eb9df71bd796a4d366fca83015c96f8e283ba48140d732bc::zal00::ZAL00","0x2::sui::SUI"]} 
+[2025-04-30T06:47:50.243Z] [32minfo[39m: dump pool by coin 0x872e504b1ca284a2eb9df71bd796a4d366fca83015c96f8e283ba48140d732bc::zal00::ZAL00,0x2::sui::SUI 
+[2025-04-30T06:47:50.674Z] [31merror[39m: Unhandled promise rejection: Failed tp [arse response from https://api-sui.devcetus.com/v2/sui/stats_pools?order_by=-fees&limit=100&has_mining=true&has_farming=true&no_incentives=true&display_all_pools=true&coin_type=0x872e504b1ca284a2eb9df71bd796a4d366fca83015c96f8e283ba48140d732bc::zal00::ZAL00,0x0000000000000000000000000000000000000000000000000000000000000002::sui::SUI]. 
+[2025-04-30T06:47:52.969Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T06:47:52.971Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T06:47:52.972Z] [32minfo[39m: options: {"coins":["0x872e504b1ca284a2eb9df71bd796a4d366fca83015c96f8e283ba48140d732bc::zal00::ZAL00","0x2::sui::SUI"]} 
+[2025-04-30T06:47:52.972Z] [32minfo[39m: dump pool by coin 0x872e504b1ca284a2eb9df71bd796a4d366fca83015c96f8e283ba48140d732bc::zal00::ZAL00,0x2::sui::SUI 
+[2025-04-30T06:47:53.272Z] [31merror[39m: Unhandled promise rejection: Failed tp [arse response from https://api-sui.devcetus.com/v2/sui/stats_pools?order_by=-fees&limit=100&has_mining=true&has_farming=true&no_incentives=true&display_all_pools=true&coin_type=0x872e504b1ca284a2eb9df71bd796a4d366fca83015c96f8e283ba48140d732bc::zal00::ZAL00,0x0000000000000000000000000000000000000000000000000000000000000002::sui::SUI]. 
+[2025-04-30T06:47:57.006Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T06:47:57.007Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T06:47:57.008Z] [32minfo[39m: options: {"coins":["0x872e504b1ca284a2eb9df71bd796a4d366fca83015c96f8e283ba48140d732bc::zal00::ZAL00","0x2::sui::SUI"]} 
+[2025-04-30T06:47:57.008Z] [32minfo[39m: dump pool by coin 0x872e504b1ca284a2eb9df71bd796a4d366fca83015c96f8e283ba48140d732bc::zal00::ZAL00,0x2::sui::SUI 
+[2025-04-30T06:47:57.275Z] [31merror[39m: Unhandled promise rejection: Failed tp [arse response from https://api-sui.devcetus.com/v2/sui/stats_pools?order_by=-fees&limit=100&has_mining=true&has_farming=true&no_incentives=true&display_all_pools=true&coin_type=0x872e504b1ca284a2eb9df71bd796a4d366fca83015c96f8e283ba48140d732bc::zal00::ZAL00,0x0000000000000000000000000000000000000000000000000000000000000002::sui::SUI]. 
+[2025-04-30T06:48:14.024Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T06:48:14.027Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T06:48:14.028Z] [32minfo[39m: options: {"coins":[]} 
+[2025-04-30T06:50:39.459Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T06:50:39.460Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T06:50:39.462Z] [32minfo[39m: options: {"coins":[]} 
+[2025-04-30T06:54:40.168Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T06:54:40.170Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T06:54:40.171Z] [31merror[39m: tokens must be 2 
+[2025-04-30T06:54:43.357Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T06:54:43.359Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T06:54:43.361Z] [31merror[39m: tokens must be 2 
+[2025-04-30T06:54:57.622Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T06:54:57.624Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T06:54:57.625Z] [31merror[39m: tokens must be 2 or tokens is not set 
+[2025-04-30T06:55:01.267Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T06:55:01.269Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T06:55:01.271Z] [31merror[39m: tokens must be 2 or tokens is not set 
+[2025-04-30T06:55:13.463Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T06:55:13.465Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T06:55:42.070Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T06:55:42.072Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T06:55:42.076Z] [32minfo[39m: 0x04cd059fdd2fe4d53f6189445ff2fe5a364a2042bc9ab7045d242f6232bc3c11 
+[2025-04-30T06:55:42.725Z] [32minfo[39m: decimalsA: 6 
+[2025-04-30T06:55:42.725Z] [32minfo[39m: decimalsB: 9 
+[2025-04-30T06:56:16.717Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/move 
+[2025-04-30T06:56:16.719Z] [32minfo[39m: Ensured directory exists: /Users/xingyue/outcode/git/sui-token-pool/logs 
+[2025-04-30T06:56:16.724Z] [32minfo[39m: 0x04cd059fdd2fe4d53f6189445ff2fe5a364a2042bc9ab7045d242f6232bc3c11 
+[2025-04-30T06:56:17.356Z] [32minfo[39m: decimalsA: 6 
+[2025-04-30T06:56:17.356Z] [32minfo[39m: decimalsB: 9 

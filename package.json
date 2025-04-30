@@ -2,12 +2,14 @@
   "name": "sui-move-cli",
   "version": "1.0.8",
   "description": "A command-line tool for managing Sui Move projects and tokens",
+  "main": "./dist/index.js",
   "bin": {
-    "sui-move-cli": "./dist/index.js"
+    "sui-move-cli": "./dist/cli.js"
   },
   "scripts": {
     "build": "tsc",
     "start": "ts-node src/index.ts",
+    "cli": "ts-node src/cli.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
     "test-all": "mocha --require ts-node/register test/*/*.test.ts",
     "prepublishOnly": "npm run build"
@@ -30,6 +32,7 @@
     "node": ">=16"
   },
   "devDependencies": {
+    "@types/bn.js": "^5.1.6",
     "@types/mocha": "^10.0.10",
     "@types/node": "^22.14.0",
     "mocha": "^11.1.0",
@@ -38,8 +41,13 @@
     "typescript": "^5.8.3"
   },
   "dependencies": {
+    "@cetusprotocol/cetus-sui-clmm-sdk": "^5.3.4",
+    "@mysten/sui": "^1.29.0",
+    "bn.js": "^5.2.2",
     "commander": "^13.1.0",
+    "decimal.js": "^10.5.0",
     "ora": "^8.2.0",
+    "tslib": "^2.8.1",
     "winston": "^3.17.0"
   }
 }

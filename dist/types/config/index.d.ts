@@ -12,3 +12,4 @@ export declare function validateNumber(value: any, fieldName: string, options?: 
     min?: number;
     max?: number;
 }): void;
+export declare const network = "testnet";
